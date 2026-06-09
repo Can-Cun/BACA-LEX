@@ -1,0 +1,42 @@
+divorcio *{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    color:rgb(0, 0, 0);
+    animation: myAnimation 10s infinite;
+    border-radius: 5%;
+    border:rgba(224, 215, 215, 0.469) 10px solid;
+}
+
+divorcio *:hover{
+    border:rgb(255, 255, 255) 10px solid;
+}
+
+@keyframes myAnimation {
+  0% {
+     color:rgb(0, 0, 0);
+    transform:rotate3d(0deg);
+}
+  50%{
+     color: rgb(51, 142, 222);
+  }
+  100% {
+    transform:rotate3d(360deg);
+     color:rgb(0, 0, 0);
+}
+}
+
+
+body {
+    background: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
